@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6159FB20F4514C0059FD0C /* SBRulerViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6159FA20F4514C0059FD0C /* SBRulerViewConfiguration.m */; };
+		AE6159FE20F45A780059FD0C /* SBScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6159FD20F45A780059FD0C /* SBScrollRulerView.m */; };
+		AE615A0120F45B8F0059FD0C /* SBTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE615A0020F45B8F0059FD0C /* SBTriangleView.m */; };
+		AE615A0420F45C880059FD0C /* SBRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE615A0320F45C880059FD0C /* SBRulerView.m */; };
+		AE70142520F366A00007598B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70142420F366A00007598B /* AppDelegate.m */; };
+		AE70142820F366A00007598B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70142720F366A00007598B /* ViewController.m */; };
+		AE70142B20F366A00007598B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE70142920F366A00007598B /* Main.storyboard */; };
+		AE70142D20F366A00007598B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE70142C20F366A00007598B /* Assets.xcassets */; };
+		AE70143320F366A00007598B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70143220F366A00007598B /* main.m */; };
+		AE70143D20F366A00007598B /* RulerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70143C20F366A00007598B /* RulerDemoTests.m */; };
+		AE70144820F366A00007598B /* RulerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE70144720F366A00007598B /* RulerDemoUITests.m */; };
+		AE70145A20F36C1B0007598B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE70145920F36C1B0007598B /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE70143920F366A00007598B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE70141820F366A00007598B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE70141F20F366A00007598B;
+			remoteInfo = RulerDemo;
+		};
+		AE70144420F366A00007598B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE70141820F366A00007598B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE70141F20F366A00007598B;
+			remoteInfo = RulerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE6159F920F4514C0059FD0C /* SBRulerViewConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRulerViewConfiguration.h; sourceTree = "<group>"; };
+		AE6159FA20F4514C0059FD0C /* SBRulerViewConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRulerViewConfiguration.m; sourceTree = "<group>"; };
+		AE6159FC20F45A780059FD0C /* SBScrollRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBScrollRulerView.h; sourceTree = "<group>"; };
+		AE6159FD20F45A780059FD0C /* SBScrollRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBScrollRulerView.m; sourceTree = "<group>"; };
+		AE6159FF20F45B8F0059FD0C /* SBTriangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBTriangleView.h; sourceTree = "<group>"; };
+		AE615A0020F45B8F0059FD0C /* SBTriangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTriangleView.m; sourceTree = "<group>"; };
+		AE615A0220F45C880059FD0C /* SBRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRulerView.h; sourceTree = "<group>"; };
+		AE615A0320F45C880059FD0C /* SBRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBRulerView.m; sourceTree = "<group>"; };
+		AE70142020F366A00007598B /* RulerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RulerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70142320F366A00007598B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE70142420F366A00007598B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE70142620F366A00007598B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE70142720F366A00007598B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE70142A20F366A00007598B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE70142C20F366A00007598B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE70143120F366A00007598B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70143220F366A00007598B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE70143820F366A00007598B /* RulerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RulerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70143C20F366A00007598B /* RulerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RulerDemoTests.m; sourceTree = "<group>"; };
+		AE70143E20F366A00007598B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70144320F366A00007598B /* RulerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RulerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70144720F366A00007598B /* RulerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RulerDemoUITests.m; sourceTree = "<group>"; };
+		AE70144920F366A00007598B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70145920F36C1B0007598B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE70141D20F366A00007598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70143520F366A00007598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70144020F366A00007598B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6159F820F4511B0059FD0C /* SBRulerView */ = {
+			isa = PBXGroup;
+			children = (
+				AE6159F920F4514C0059FD0C /* SBRulerViewConfiguration.h */,
+				AE6159FA20F4514C0059FD0C /* SBRulerViewConfiguration.m */,
+				AE6159FC20F45A780059FD0C /* SBScrollRulerView.h */,
+				AE6159FD20F45A780059FD0C /* SBScrollRulerView.m */,
+				AE6159FF20F45B8F0059FD0C /* SBTriangleView.h */,
+				AE615A0020F45B8F0059FD0C /* SBTriangleView.m */,
+				AE615A0220F45C880059FD0C /* SBRulerView.h */,
+				AE615A0320F45C880059FD0C /* SBRulerView.m */,
+			);
+			path = SBRulerView;
+			sourceTree = "<group>";
+		};
+		AE70141720F366A00007598B = {
+			isa = PBXGroup;
+			children = (
+				AE70142220F366A00007598B /* RulerDemo */,
+				AE70143B20F366A00007598B /* RulerDemoTests */,
+				AE70144620F366A00007598B /* RulerDemoUITests */,
+				AE70142120F366A00007598B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE70142120F366A00007598B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE70142020F366A00007598B /* RulerDemo.app */,
+				AE70143820F366A00007598B /* RulerDemoTests.xctest */,
+				AE70144320F366A00007598B /* RulerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE70142220F366A00007598B /* RulerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE6159F820F4511B0059FD0C /* SBRulerView */,
+				AE70142320F366A00007598B /* AppDelegate.h */,
+				AE70142420F366A00007598B /* AppDelegate.m */,
+				AE70142620F366A00007598B /* ViewController.h */,
+				AE70142720F366A00007598B /* ViewController.m */,
+				AE70142920F366A00007598B /* Main.storyboard */,
+				AE70145920F36C1B0007598B /* Launch Screen.storyboard */,
+				AE70142C20F366A00007598B /* Assets.xcassets */,
+				AE70143120F366A00007598B /* Info.plist */,
+				AE70143220F366A00007598B /* main.m */,
+			);
+			path = RulerDemo;
+			sourceTree = "<group>";
+		};
+		AE70143B20F366A00007598B /* RulerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE70143C20F366A00007598B /* RulerDemoTests.m */,
+				AE70143E20F366A00007598B /* Info.plist */,
+			);
+			path = RulerDemoTests;
+			sourceTree = "<group>";
+		};
+		AE70144620F366A00007598B /* RulerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE70144720F366A00007598B /* RulerDemoUITests.m */,
+				AE70144920F366A00007598B /* Info.plist */,
+			);
+			path = RulerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE70141F20F366A00007598B /* RulerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70144C20F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemo" */;
+			buildPhases = (
+				AE70141C20F366A00007598B /* Sources */,
+				AE70141D20F366A00007598B /* Frameworks */,
+				AE70141E20F366A00007598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RulerDemo;
+			productName = RulerDemo;
+			productReference = AE70142020F366A00007598B /* RulerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE70143720F366A00007598B /* RulerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70144F20F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemoTests" */;
+			buildPhases = (
+				AE70143420F366A00007598B /* Sources */,
+				AE70143520F366A00007598B /* Frameworks */,
+				AE70143620F366A00007598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE70143A20F366A00007598B /* PBXTargetDependency */,
+			);
+			name = RulerDemoTests;
+			productName = RulerDemoTests;
+			productReference = AE70143820F366A00007598B /* RulerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE70144220F366A00007598B /* RulerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70145220F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemoUITests" */;
+			buildPhases = (
+				AE70143F20F366A00007598B /* Sources */,
+				AE70144020F366A00007598B /* Frameworks */,
+				AE70144120F366A00007598B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE70144520F366A00007598B /* PBXTargetDependency */,
+			);
+			name = RulerDemoUITests;
+			productName = RulerDemoUITests;
+			productReference = AE70144320F366A00007598B /* RulerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE70141820F366A00007598B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ShouBaTeam;
+				TargetAttributes = {
+					AE70141F20F366A00007598B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AE70143720F366A00007598B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE70141F20F366A00007598B;
+					};
+					AE70144220F366A00007598B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE70141F20F366A00007598B;
+					};
+				};
+			};
+			buildConfigurationList = AE70141B20F366A00007598B /* Build configuration list for PBXProject "RulerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE70141720F366A00007598B;
+			productRefGroup = AE70142120F366A00007598B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE70141F20F366A00007598B /* RulerDemo */,
+				AE70143720F366A00007598B /* RulerDemoTests */,
+				AE70144220F366A00007598B /* RulerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE70141E20F366A00007598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70145A20F36C1B0007598B /* Launch Screen.storyboard in Resources */,
+				AE70142D20F366A00007598B /* Assets.xcassets in Resources */,
+				AE70142B20F366A00007598B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70143620F366A00007598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70144120F366A00007598B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE70141C20F366A00007598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70142820F366A00007598B /* ViewController.m in Sources */,
+				AE615A0120F45B8F0059FD0C /* SBTriangleView.m in Sources */,
+				AE615A0420F45C880059FD0C /* SBRulerView.m in Sources */,
+				AE70143320F366A00007598B /* main.m in Sources */,
+				AE70142520F366A00007598B /* AppDelegate.m in Sources */,
+				AE6159FE20F45A780059FD0C /* SBScrollRulerView.m in Sources */,
+				AE6159FB20F4514C0059FD0C /* SBRulerViewConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70143420F366A00007598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70143D20F366A00007598B /* RulerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70143F20F366A00007598B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70144820F366A00007598B /* RulerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE70143A20F366A00007598B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE70141F20F366A00007598B /* RulerDemo */;
+			targetProxy = AE70143920F366A00007598B /* PBXContainerItemProxy */;
+		};
+		AE70144520F366A00007598B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE70141F20F366A00007598B /* RulerDemo */;
+			targetProxy = AE70144420F366A00007598B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE70142920F366A00007598B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE70142A20F366A00007598B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE70144A20F366A00007598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE70144B20F366A00007598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE70144D20F366A00007598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
+				INFOPLIST_FILE = RulerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE70144E20F366A00007598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
+				INFOPLIST_FILE = RulerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE70145020F366A00007598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RulerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RulerDemo.app/RulerDemo";
+			};
+			name = Debug;
+		};
+		AE70145120F366A00007598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RulerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RulerDemo.app/RulerDemo";
+			};
+			name = Release;
+		};
+		AE70145320F366A00007598B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RulerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RulerDemo;
+			};
+			name = Debug;
+		};
+		AE70145420F366A00007598B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RulerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoubakeji.RulerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RulerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE70141B20F366A00007598B /* Build configuration list for PBXProject "RulerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70144A20F366A00007598B /* Debug */,
+				AE70144B20F366A00007598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70144C20F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70144D20F366A00007598B /* Debug */,
+				AE70144E20F366A00007598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70144F20F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70145020F366A00007598B /* Debug */,
+				AE70145120F366A00007598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70145220F366A00007598B /* Build configuration list for PBXNativeTarget "RulerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70145320F366A00007598B /* Debug */,
+				AE70145420F366A00007598B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE70141820F366A00007598B /* Project object */;
+}
