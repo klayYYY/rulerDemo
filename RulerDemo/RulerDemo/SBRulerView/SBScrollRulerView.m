@@ -80,7 +80,7 @@
 
 - (SBTriangleView *)triangle{
     if (!_triangle) {
-        _triangle = [[SBTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width / 2 - 0.5 - RVCShareIns.trangle_W / 2, 0, RVCShareIns.trangle_W, RVCShareIns.trangle_W)];
+        _triangle = [[SBTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width / 2 - RVCShareIns.trangle_W / 2, 0, RVCShareIns.trangle_W, RVCShareIns.trangle_W)];
         _triangle.triangleColor = self.triangleColor;
         _triangle.backgroundColor = [UIColor clearColor];
     }
