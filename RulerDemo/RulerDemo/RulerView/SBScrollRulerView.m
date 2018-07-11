@@ -245,7 +245,7 @@
 
 - (SBTriangleView *)triangle{
     if (!_triangle) {
-        _triangle = [[SBTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width/2 - 0.5 - TrangleWidth / 2, 0, TrangleWidth, TrangleWidth)];
+        _triangle = [[SBTriangleView alloc]initWithFrame:CGRectMake(self.bounds.size.width/2 - TrangleWidth / 2, 0, TrangleWidth, TrangleWidth)];
         _triangle.triangleColor = white_color;
         _triangle.backgroundColor = [UIColor clearColor];
     }
